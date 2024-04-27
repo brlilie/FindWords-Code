@@ -6,7 +6,7 @@ int main() {
 
     char words[num][25]; //char words[2][25]
     for (int i = 0; i < num; i++) {
-        cin.getline(words[i], 25); //cin.getline(words[0],25)--memasukkan kata dan akan dimasukan ke dalam array words[0] (prtama kali)
+        cin.getline(words[i], 25); //cin.getline(words[0],25)-memasukkan kata dan akan dimasukan ke dalam array words[0] (prtama kali)
         toUpperCase(words[i]); //toUpperCase(words[0]) looping untuk mengkapitalkan seluruh karakter dalam words[i]
     }
 
